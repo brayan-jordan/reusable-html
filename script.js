@@ -1,7 +1,13 @@
-let button = document.getElementById('transparent-cards');
+let buttonTransparentCards = document.getElementById('transparent-cards');
 
-button.onclick = function (e) {
+buttonTransparentCards.onclick = function (e) {
     e.preventDefault();
-
     location.href = 'transparent-cards/index.html';
+}
+
+let buttonFlexModels = document.getElementById('flex-models');
+
+buttonFlexModels.onclick = function (e) {
+    e.preventDefault();
+    location.href = 'flex-models/index.html';
 }
