@@ -11,3 +11,10 @@ buttonFlexModels.onclick = function (e) {
     e.preventDefault();
     location.href = 'flex-models/index.html';
 }
+
+let buttonGridHeaderExample = document.getElementById('grid-header-example');
+
+buttonGridHeaderExample.onclick = function (e) {
+    e.preventDefault();
+    location.href = 'grid-header-example/index.html';
+}
