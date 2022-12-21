@@ -1,20 +1,27 @@
-let buttonTransparentCards = document.getElementById('transparent-cards');
+let buttonTransparentCards = document.getElementById("transparent-cards");
 
 buttonTransparentCards.onclick = function (e) {
-    e.preventDefault();
-    location.href = 'transparent-cards/index.html';
-}
+  e.preventDefault();
+  location.href = "transparent-cards/index.html";
+};
 
-let buttonFlexModels = document.getElementById('flex-models');
+let buttonFlexModels = document.getElementById("flex-models");
 
 buttonFlexModels.onclick = function (e) {
-    e.preventDefault();
-    location.href = 'flex-models/index.html';
-}
+  e.preventDefault();
+  location.href = "flex-models/index.html";
+};
 
-let buttonGridHeaderExample = document.getElementById('grid-header-example');
+let buttonGridHeaderExample = document.getElementById("grid-header-example");
 
 buttonGridHeaderExample.onclick = function (e) {
-    e.preventDefault();
-    location.href = 'grid-header-example/index.html';
-}
+  e.preventDefault();
+  location.href = "grid-header-example/index.html";
+};
+
+let buttonFlexGrowExample = document.getElementById("flex-grow-example");
+
+buttonFlexGrowExample.onclick = function (e) {
+  e.preventDefault();
+  location.href = "flex-grow-example/index.html";
+};
